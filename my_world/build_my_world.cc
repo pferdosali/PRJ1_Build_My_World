@@ -2,9 +2,9 @@
 
 namespace gazebo
 {
-  class WorldPluginTutorial : public WorldPlugin
+  class ArpeggioWorld : public WorldPlugin
   {
-    public: WorldPluginTutorial() : WorldPlugin()
+    public: ArpeggioWorld() : WorldPlugin()
             {
               printf("Welcome to Payman Ferdosali's world!\n");
             }
@@ -13,5 +13,5 @@ namespace gazebo
             {
             }
   };
-  GZ_REGISTER_WORLD_PLUGIN(WorldPluginTutorial)
+  GZ_REGISTER_WORLD_PLUGIN(ArpeggioWorld)
 }
