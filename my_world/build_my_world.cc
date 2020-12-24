@@ -6,7 +6,7 @@ namespace gazebo
   {
     public: ArpeggioWorld() : WorldPlugin()
             {
-              printf("Welcome to Payman Ferdosali's world!\n");
+              printf("Hello, Welcome to Payman Ferdosali's world!\n");
             }
 
     public: void Load(physics::WorldPtr _world, sdf::ElementPtr _sdf)
